@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    background-color: white;
+    
+}
+h1{
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    border: 1px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    width: 90%;
+    height: 150px;
+    color: black;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+.row{
+width: 100%;
+}        
+.columnclass1{
+    width: 100%;
+    border: 1px solid black;
+}
+@media (min-width:992px) {
+
+.cl-lg-1 ,.cl-lg-2 ,.cl-lg-3 ,.cl-lg-4 ,.cl-lg-5 ,.cl-lg-6 ,.cl-lg-7 ,.cl-lg-8 ,.cl-lg-9 ,.cl-lg-10 ,.cl-lg-11 ,.cl-lg-12{
+float: left;
+border: 1px solid black;
+}
+.cl-lg-1{
+width: 8.33%;
+}  
+.cl-lg-2{
+width: 16.67;
+} .cl-lg-3{
+width: 25%;
+} .cl-lg-4{
+width: 33.33%;
+} .cl-lg-5{
+width: 41.67%;
+} .cl-lg-6{
+width: 50%;
+} .cl-lg-7{
+width: 58.33%;
+} .cl-lg-8{
+width: 66.66%;
+} .cl-lg-9{
+width: 75%;
+} .cl-lg-10{
+width: 83.33%;
+} .cl-lg-11{
+width: 91.66%;
+} .cl-lg-12{
+width: 100%;
+}       
+}
+@media (mix-width:768px) and (max-width:991px) {
+.cl-mg-1 ,.cl-mg-2 ,.cl-mg-3 ,.-mg-4 ,.cl-mg-5 ,.cl-mg-6 ,.cl-mg-7 ,.cl-mg-8 ,.cl-mg-9 ,.cl-mg-10 ,.cl-mg-11 ,.cl-mg-12{
+float: left;
+border: 1px solid black;    
+}  
+.cl-mg-1{
+width: 8.33%;
+}.cl-mg-2{
+width: 16.67;
+} .cl-mg-3{
+width: 25%;
+} .cl-mg-4{
+width: 33.33%;
+} .cl-mg-5{
+width: 41.67%;
+} .cl-mg-6{
+width: 50%;
+} .cl-mg-7{
+width: 58.33%;
+} .cl-mg-8{
+width: 66.66%;
+} .cl-mg-9{
+width: 75%;
+} .cl-mg-10{
+width: 83.33%;
+} .cl-mg-11{
+width: 91.66%;
+} .cl-mg-12{
+width: 100%;
+}              
+}
+@media (max-width:767px) {
+    .cl-sg-1 ,.cl-sg-2 ,.cl-sg-3 ,.-sg-4 ,.cl-sg-5 ,.cl-sg-6 ,.cl-sg-7 ,.cl-sg-8 ,.cl-sg-9 ,.cl-sg-10 ,.cl-sg-11 ,.cl-sg-12{
+    float: left;
+    border: 1px solid black;    
+    }  
+    
+    .cl-sg-1{
+    width: 8.33%;
+    }  
+    .cl-sg-2{
+    width: 16.67;
+    } .cl-sg-3{
+    width: 25%;
+    } .cl-sg-4{
+    width: 33.33%;
+    } .cl-sg-5{
+    width: 41.67%;
+    } .cl-sg-6{
+    width: 50%;
+    } .cl-sg-7{
+    width: 58.33%;
+    } .cl-sg-8{
+    width: 66.66%;
+    } .cl-sg-9{
+    width: 75%;
+    } .cl-sg-10{
+    width: 83.33%;
+    } .cl-sg-11{
+    width: 91.66%;
+    } .cl-sg-12{
+    width: 100%;
+    }              
+    }
